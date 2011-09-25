@@ -674,9 +674,11 @@ a:focus {
 	line-height:14px;
 }
 .gallery-pict {
-	float:left;
-	margin:0 15px 0 0;
-	width:430px;
+    float: left;
+    margin: 0 15px 0 0;
+    position: relative;
+    width: 430px;
+    z-index: 10;
 }
 .gallery-pict .big-pict li {
 	width:430px;
