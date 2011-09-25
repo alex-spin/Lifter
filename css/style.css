@@ -90,6 +90,8 @@ a:focus {
 #nav li {
 	position:relative;
 	z-index:40;
+	vertical-align:top;
+	zoom:1;
 }
 #nav li:hover a {
 	color:#000;
@@ -125,14 +127,18 @@ a:focus {
 	font-size:13px;
 	line-height:22px;
 	padding:2px 0;
+	vertical-align:top;
+	zoom:1;
 	background:url(../images/sep4.gif) no-repeat 0 100%;
 }		
 #nav .links ul li.alt-link {
+	width:200px;
 	background:url(../images/sep5.png) no-repeat 0 100%;
 }
 #nav .links ul li em {
 	font-style:normal;
 	padding:0 0 0 5px;
+	display:block;
 }
 #nav .links ul a {
 	float:none;
@@ -142,6 +148,8 @@ a:focus {
 	font-size:13px;
 	line-height:22px;
 	background:none;
+	vertical-align:top;
+	zoom:1;
 }
 #nav .links ul a span {
 	float:none;
@@ -647,10 +655,12 @@ a:focus {
 	padding:0 7px 0 6px;
 	height:18px;
 	cursor:pointer;
+	color:#fff;
 	background: url(../images/button.png) no-repeat;
 }
-.button:hover {
-	color:#999;
+.button:hover,
+.button:hover span {
+	color:#000;
 }
 /* product-detail */
 .product-detail {
@@ -699,6 +709,9 @@ a:focus {
 .gallery-pict .thumbs li img {
 	display:block;
 	border:1px solid #cfcfcf;
+}
+.gallery-pict .thumbs li:hover img {
+	border-color:#000;
 }
 .product-info-text {
 	overflow:hidden;
