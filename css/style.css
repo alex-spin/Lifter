@@ -645,7 +645,7 @@ a:focus {
 	float:left;
 	margin:15px 0 0;
 	height:18px;
-	color:#fff;
+	color:#fff !important;
 	line-height:18px;
 	padding-right:9px;
 	background:url(../images/button.png) no-repeat 100% -18px;
@@ -655,12 +655,12 @@ a:focus {
 	padding:0 7px 0 6px;
 	height:18px;
 	cursor:pointer;
-	color:#fff;
+	color:#fff !important;
 	background: url(../images/button.png) no-repeat;
 }
 .button:hover,
 .button:hover span {
-	color:#000;
+	color:#000 !important;
 }
 /* product-detail */
 .product-detail {
