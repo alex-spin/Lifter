@@ -1,0 +1,13 @@
+.clearfix,
+.wrap,
+.row,
+.hold {
+    zoom: 1;
+}
+/* middle */
+/*
+* + html  {
+	display: block;
+	margin-top: expression(this.parentNode.offsetHeight > this.offsetHeight ? ((this.parentNode.offsetHeight-this.offsetHeight)/2 + "px") : "0");
+}
+*/
